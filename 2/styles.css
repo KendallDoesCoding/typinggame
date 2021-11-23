@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: rgb(43, 72, 201);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: large;
+    border: none;
+    border-radius: 15%;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input {
+    padding: 15px;
+    font-size: 1.5rem;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-heading {
+    text-align: center;
+}
+
+#stats {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.hide {
+    display: none;
+}
+
+#text-display {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.typed-word {
+    padding: 5px;
+    display: inline-block;
+}
