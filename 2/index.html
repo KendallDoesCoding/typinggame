@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <header>
+            <article id="stats" class="hide" >
+                <p class="d-block">WPM: <span id="wpm-display"></span></p>
+                <p class="d-block">Score: <span id="score-display"></span></p>
+                <p class="d-block">
+                    Time left: <span id="time-display"></span>
+                </p>
+            </article>
+            <h1 id="main-heading">This Game is Something else...</h1>
+        </header>
+
+        <main>
+            <section id="main-section">
+                <!-- typed words go here -->
+                <article id="main-content"></article>
+
+                <button type="submit" id="button">Start game</button>
+
+                <article id="text-display" ></article>
+
+                <form id="form">
+                    <input class="hide" id="input" type="text" />
+                </form>
+            </section>
+        </main>
+
+        <script src="./alice.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
